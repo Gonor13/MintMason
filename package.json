@@ -1,0 +1,30 @@
+{
+  "name": "mintmason",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "compile": "hardhat compile",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network base",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network baseSepolia"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.2.0",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "wagmi": "^2.6.0",
+    "viem": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/react": "^18.2.14",
+    "typescript": "^5.2.2",
+    "hardhat": "^2.18.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "MintMason",
+    "subtitle": "Order of the MintMason",
+    "description": "A minimal mini app for Base \u2014 MintMason",
+    "iconUrl": "https://yourapp.vercel.app/icon.png",
+    "homeUrl": "https://yourapp.vercel.app",
+    "splashBackgroundColor": "#ffffff",
+    "heroImageUrl": "https://yourapp.vercel.app/hero.png",
+    "tags": [
+      "base",
+      "miniapp",
+      "mint"
+    ]
+  }
+}
